@@ -5,29 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CV HTML-AnaRC</title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="icon" type="image/x-icon" href="emoji_nature.png">
     <link rel="stylesheet" href="css/index.css">
-
 </head>
-<body>
-    <script>"js/function,js"</script>
+
+<body>    
+
+    <script src="js/function.js"></script>
+
     <header> 
-        <img src="Ana (2).png" alt="Imagen a modo de ejemplo para el proyecto CV" height="150px" width="170px"/> 
-            <h1>Rivero C. Ana</h1>
+        <img src="Ana(1).jpg" alt="Imagen a modo de ejemplo para el proyecto CV" height="250px" width="250px">
+        
+        <h1 id="h1">Rivero C. Ana</h1>
+
+        <button id="boton1" type="button" style="background-color: #faabf3;" onclick="document.getElementById('h1').style.color= 'yellow' "><b>Ilumina tu visita!</b></button>
     </header>
 
     <aside>
-        <p1><i>Trabajo de forma responsable y organizada, tratando de avanzar y especializarme en mi carrera, explorando distintas áreas, pero siempre sobre mis bases en seguridad e higiene en lo laboral.</i></p1>
+        <button id="boton" onclick="mostrar();" style="font-size: 15px; background-color: #56befa;"><b>HOLA!!</b></button>
+        <p id="demo"><i></i></p>
         
         <fieldset>
             <legend>Habilidades de Desempeño</legend>
-            <iframe width="150" height="150" 
-            src="https://www.youtube.com/embed/nYhliYnTIUo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen>
-            </iframe>
+            <video controls width="150" height="150">
+                <source src="Liderazgo y Trabajo en Equipo.mp4" type="video/mp4" title="Video presentacion Habilidades">
+            </video>
             <ul>
-                <li>Comunicacion</li>
-                <li>Organizacion</li>
-                <li>Motivacion</li>
+                <li>Comunicación</li>
+                <li>Organización</li>
+                <li>Motivación</li>
                 <li>Trabajo en equipo</li>
                 <li>Liderazgo</li>
             </ul>
@@ -36,26 +42,28 @@
         <fieldset>
             <legend>Mis Hobbies</legend>
             <ul>
-                <li>Escuchar musica</li>
+                <li>Escuchar Música</li>
                  <audio controls>
-                    <source src="y2mate.com - Los Autenticos decadentes  Un osito de peluche de Taiwan video oficial HD.mp3/horse.ogg" type="audio/ogg">
-                    <source src="y2mate.com - Los Autenticos decadentes  Un osito de peluche de Taiwan video oficial HD.mp3/horse.mp3" type="audio/mpeg">
+                    <source src="Los Autenticos decadentes  Un osito de peluche de Taiwan.ogg" type="audio/ogg">
+                    <source src="Los Autenticos decadentes  Un osito de peluche de Taiwan.mp3" type="audio/mpeg">
                    Tu navegador no soporta el elemento audio, por lo que no podras escuchar su contenido.
                    Intenta acceder al mismo con un navegador actualizado.
                  </audio>
 
                 <li>Cultivo y cuidado de cactus y suculentas</li>
+                <img src="cactus.jpg" alt="Imagen de referencia sobre tipos de cactus y suculentas" height="100px" width="100px">
+
             </ul>
         </fieldset>
     </aside>
 
     <main>
         <fieldset>
-            <legend>Datos Persanal</legend>
+            <legend>Datos Personales</legend>
 
-            <video width="150" height="150" controls>
-                <source src="y2mate.com - Piedra papel o tijeras  Corto Animado Reflexiones_v240P.mp4/movie.mp4" type="video/mp4">
-                <source src="y2mate.com - Piedra papel o tijeras  Corto Animado Reflexiones_v240P.mp4/movie.ogg" type="video/ogg">
+            <video controls width="150" height="150">
+                <source src="MAÑANAS DE SÁBADO MINION.MP4" type="video/mp4">
+                <source src="MAÑANAS DE SÁBADO MINION.ogg" type="video/ogg">
                Tu navegador no soporta el elemto video, por lo tanto no podras visualizar este contenido.
                Intenta acceder con un navegador actualizado.
             </video>
@@ -71,25 +79,34 @@
         </fieldset>
 
         <fieldset>
-            <legend>Formacion Academica</legend>
-        
-            <ul>
-                <li><b>Primeria:</b> Escuela Manuel Belgrano</li>
-                <li><b>Secundaria:</b> C.E.N.M.A. 295</li> 
-                <li><b>Terciario:</b> Tecnico en Seguridad, Higiene y Control Ambiente Industrial</li>
-                <li><b>Terciario:</b> Tecnicatura en Administracion de Empresa</li>
-                <li><b>Ingles:</b> Intermedio, Cordoba- Campus virtual</li>
-                <li><b>Congreso Nacional de Madicina Tactica y Prehospitalaria</b></li>
+            <legend>Formación Académica</legend>
+
+            <img src="Ana(3).jpg" alt="Ejemplo imagen" height="100px" width="100px">
+           
+            <ul> 
+                <li><b>Terciario:</b> Técnico en Seguridad, Higiene y Control Ambiente Industrial</li>
+                <li><b>Terciario:</b> Tecnicatura en Administración de Empresa</li>
+                <li><b>Ingles:</b> Basico, Cba- Campus virtual</li>
+                <li><b>Congreso Nacional de Madicina Táctica y Prehospitalaria</b></li>  
             </ul>
+  
         </fieldset>
 
         <fieldset>
             <legend>Experiencia Laboral</legend>
+
+            <img src="Ana(2).jpg" alt="Ejemplo imagen" height="100px" width="100px">
+
             <ul>
-                <li><b>Transporte Lusicic:</b> Seguridad e Higiene Pasante</li>
+                <li><b>Transporte:</b> Seguridad e Higiene-Pasante</li>
             </ul>
         </fieldset>
 
+    </main>
+
+    <main>
+        <button id= "boton2" onclick="displayDate()" style="background-color: #0fecfc;"><b>Fecha y Hora?</b></button>
+        <p id="demo2" style="font-size: 15px;">Fecha y Hora actual!</p> 
     </main>
 
     <footer>
@@ -98,6 +115,8 @@
             <input type="text" name="nombre" placeholder="Ingresa su nombre" />
             <label>Fecha</label>
             <input type="date" name="fecha" placeholder="Ingresa fecha" />
+            <label>Hora</label>
+            <input type="datetime" name="hora" placeholder="Ingresa hora">
             <label>Opiniones</label>
             <input type="text" name="texto" placeholder="Opinion sobre el proyecto" />
             <input type="submit" value="Enviar">
