@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV HTML-AnaRC</title>
+    <link rel="icon" type="image/x-icon" href="emoji_nature.png">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body>    
+
+    <script src="js/function.js"></script>
+
+    <header> 
+        <img src="Ana(1).jpg" alt="Imagen a modo de ejemplo para el proyecto CV" height="250px" width="250px">
+        
+        <h1 id="h1">Rivero C. Ana</h1>
+
+        <button id="boton1" type="button" style="background-color: #faabf3;" onclick="document.getElementById('h1').style.color= 'yellow' "><b>Ilumina tu visita!</b></button>
+    </header>
+
+    <aside>
+        <button id="boton" onclick="mostrar();" style="font-size: 15px; background-color: #56befa;"><b>HOLA!!</b></button>
+        <p id="demo"><i></i></p>
+        
+        <fieldset>
+            <legend>Habilidades de Desempeño</legend>
+            <video controls width="150" height="150">
+                <source src="Liderazgo y Trabajo en Equipo.mp4" type="video/mp4" title="Video presentacion Habilidades">
+            </video>
+            <ul>
+                <li>Comunicación</li>
+                <li>Organización</li>
+                <li>Motivación</li>
+                <li>Trabajo en equipo</li>
+                <li>Liderazgo</li>
+            </ul>
+        </fieldset>
+        
+        <fieldset>
+            <legend>Mis Hobbies</legend>
+            <ul>
+                <li>Escuchar Música</li>
+                 <audio controls>
+                    <source src="Los Autenticos decadentes  Un osito de peluche de Taiwan.ogg" type="audio/ogg">
+                    <source src="Los Autenticos decadentes  Un osito de peluche de Taiwan.mp3" type="audio/mpeg">
+                   Tu navegador no soporta el elemento audio, por lo que no podras escuchar su contenido.
+                   Intenta acceder al mismo con un navegador actualizado.
+                 </audio>
+
+                <li>Cultivo y cuidado de cactus y suculentas</li>
+                <img src="cactus.jpg" alt="Imagen de referencia sobre tipos de cactus y suculentas" height="100px" width="100px">
+
+            </ul>
+        </fieldset>
+    </aside>
+
+    <main>
+        <fieldset>
+            <legend>Datos Personales</legend>
+
+            <video controls width="150" height="150">
+                <source src="MAÑANAS DE SÁBADO MINION.MP4" type="video/mp4">
+                <source src="MAÑANAS DE SÁBADO MINION.ogg" type="video/ogg">
+               Tu navegador no soporta el elemto video, por lo tanto no podras visualizar este contenido.
+               Intenta acceder con un navegador actualizado.
+            </video>
+              
+            <ul>
+                <li><b>Telefono:</b> (938) 283-4620</li>
+                <li><b>D.N.I.:</b> 33979333</li>
+                <li><b>Fecha Nacimiento:</b> 1/07/1953</li>
+                <li><b>Direccion:</b> Wheeler Ridge Dr. 1835</li>
+                <li><b>Nacionalidad:</b> Argentina</li>
+                <li><b>Email:</b> theresa.jones@example.com</li>
+            </ul>
+        </fieldset>
+
+        <fieldset>
+            <legend>Formación Académica</legend>
+
+            <img src="Ana(3).jpg" alt="Ejemplo imagen" height="100px" width="100px">
+           
+            <ul> 
+                <li><b>Terciario:</b> Técnico en Seguridad, Higiene y Control Ambiente Industrial</li>
+                <li><b>Terciario:</b> Tecnicatura en Administración de Empresa</li>
+                <li><b>Ingles:</b> Basico, Cba- Campus virtual</li>
+                <li><b>Congreso Nacional de Madicina Táctica y Prehospitalaria</b></li>  
+            </ul>
+  
+        </fieldset>
+
+        <fieldset>
+            <legend>Experiencia Laboral</legend>
+
+            <img src="Ana(2).jpg" alt="Ejemplo imagen" height="100px" width="100px">
+
+            <ul>
+                <li><b>Transporte:</b> Seguridad e Higiene-Pasante</li>
+            </ul>
+        </fieldset>
+
+    </main>
+
+    <main>
+        <button id= "boton2" onclick="displayDate()" style="background-color: #0fecfc;"><b>Fecha y Hora?</b></button>
+        <p id="demo2" style="font-size: 15px;">Fecha y Hora actual!</p> 
+    </main>
+
+    <footer>
+        <form action="" method="">
+            <label>Nombre</label>
+            <input type="text" name="nombre" placeholder="Ingresa su nombre" />
+            <label>Fecha</label>
+            <input type="date" name="fecha" placeholder="Ingresa fecha" />
+            <label>Hora</label>
+            <input type="datetime" name="hora" placeholder="Ingresa hora">
+            <label>Opiniones</label>
+            <input type="text" name="texto" placeholder="Opinion sobre el proyecto" />
+            <input type="submit" value="Enviar">
+        </form>
+    </footer>
+
+</body>
+</html>
